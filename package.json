@@ -1,0 +1,7 @@
+{
+  "scripts": {
+    "build": "spago build",
+    "test": "spago -x spago.test.dhall test",
+    "check": "purs-tidy check src test"
+  }
+}
