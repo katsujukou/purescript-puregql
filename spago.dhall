@@ -14,15 +14,18 @@
   , "integers"
   , "lists"
   , "maybe"
+  , "newtype"
   , "numbers"
   , "ordered-collections"
   , "partial"
   , "prelude"
+  , "safe-coerce"
   , "st"
   , "strings"
   , "transformers"
   , "tuples"
   , "uncurried-transformers"
+  , "unsafe-coerce"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs" ]
